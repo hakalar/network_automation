@@ -1,0 +1,14 @@
+---
+- name: "PLAY 1: Backup of OSPF config"
+  hosts: cisco_routers
+  connection: network_cli
+  tasks:
+    - name: "TASK 1: Get OSPF config + store in ospf_output variable"
+      ios_command:
+        commands: "show running-config"
+      register: ospf_output
+
+    - name: "TASK 2: Copy the content of variable to ospf_config directory"
+      copy:
+        content: "{{ ospf_output.stdout[0] }}\n"
+        dest: "./outputs/ospf_config/{{ inventory_hostname }}-ospf.txt" 
