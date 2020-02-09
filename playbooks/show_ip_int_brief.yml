@@ -1,0 +1,17 @@
+---
+- name: "PLAY 1: Backup of show ip int br output"
+  hosts: cisco_routers
+  connection: network_cli
+
+  tasks:
+    - name: "TASK 1: Get show ip int br + store in sh_ip_int_br_output variable"
+      ios_command:
+        commands: "show ip interface brief"
+      register: sh_ip_int_br_output
+
+    - name: "TASK 2: Copy the content of variable to sh_ip_int_br directory"
+      copy:
+        content: "{{ sh_ip_int_br_output.stdout[0] }}\n"
+        dest: "/etc/ansible/outputs/sh_ip_int_br/{{ inventory_hostname }}_show_ip_int_br.txt"
+
+    - debug: var=sh_ip_int_br_output.stdout_lines
