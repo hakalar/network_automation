@@ -2,7 +2,7 @@
 
 cisco_csr1kv_1 = {
     'device_type': 'cisco_ios',
-    'host':   '192.168.57.3',
+    'host':   '192.168.57.5',
     'username': 'cisco',
     'password': 'cisco', # get password from user input from cli
     'port' : 22,          # optional, defaults to 22
