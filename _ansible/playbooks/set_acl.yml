@@ -1,0 +1,42 @@
+---
+- name: "PLAY 1: Backup of running config"
+  hosts: cisco_routers
+  connection: network_cli
+
+  tasks:
+    - name: "TASK 1: Verify ACL before change"
+      ios_command:
+        commands: "show ip access-list acl-MGMT"
+      register: aclbefore
+
+    - debug: var=aclbefore.stdout_lines
+
+    - name: "TASK 2: Create MGMT ACL"
+      ios_config:
+        lines:
+          - 10 permit ip 10.0.0.0 0.0.0.255 any
+          - 20 permit ip any any
+        parents: ['ip access-list extended acl-MGMT']
+        before: ['no ip access-list extended acl-MGMT']
+        match: exact
+
+    - name: "TASK 3: Verify ACL after creation"
+      ios_command:
+        commands: "show ip access-list acl-MGMT"
+      register: aclafter
+
+    - debug: var=aclafter.stdout_lines
+
+    - name: "Task 3: Apply MGMT acl"
+      ios_config:
+        lines:
+          - ip access-group acl-MGMT in
+        parents: ['interface GigabitEthernet2']
+        match: exact   
+
+    - name: "TASK 4: Verify ACL was applied sucesfully"
+      ios_command:
+        commands: "show run interface GigabitEthernet2"
+      register: gig2_config
+
+    - debug: var=gig2_config.stdout_lines
