@@ -1,0 +1,8 @@
+R1# show ip bgp
+BGP table version is 2, local router ID is 1.1.1.1
+Status codes: s suppressed, d damped, h history, * valid, > best, i -     internal,
+              r RIB-failure, S Stale
+Origin codes: i - IGP, e - EGP, ? - incomplete
+
+   Network          Next Hop            Metric LocPrf Weight Path
+> 10.1.1.0/24      192.168.1.2              0             0 200 i
