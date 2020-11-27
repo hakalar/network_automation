@@ -1,4 +1,307 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1eca9cdb-8811-41a5-aeba-9977156c0255" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_python/001 Verification/001 ping verification/ping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/001 Verification/001 ping verification/ping_trace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/001 Verification/ip valid checker/ip_valid_checker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/003 SSH + command/003 ssh to a router and issue a command/netmiko_send_command_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/005 Device backup/backup of multiple routers/devices" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/005 Device backup/backup of multiple routers/ssh_to_multiple_routers_txt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/005 Device backup/backup router/backup_router.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/005 Device backup/netmiko save config/netmiko_save_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/006 SSH output parsing/arp_table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/006 SSH output parsing/format_print_output.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/006 SSH output parsing/ip_to_hex.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/006 SSH output parsing/show_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check-bgp-peers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check-bgp-routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check-cpu.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check-cumulus-sw-fans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check-cumulus-sw-psu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check-cumulus-sw-temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check-disk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check-l3-resources.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check-memory.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check-process.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/007 Health Checks/check_ntp_sync.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/013 BGP/1/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/013 BGP/1/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/013 BGP/1/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/013 BGP/1/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/013 BGP/1/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/1/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/1/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/1/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/1/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/1/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/2/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/2/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/2/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/2/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/2/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/2/arp_entries.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/2/show_arp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/2/show_ip_bgp_summ.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/2/show_ip_int_brief.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/2/show_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/3/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/3/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/3/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/3/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/3/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/3/show_arp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/3/show_lldp_neighbors_detail.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/3/show_vlan.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/4/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/4/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/4/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/4/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/4/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/4/show_ipv6_intf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/4/show_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/5/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/5/1b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/5/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/5/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/5/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/6/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/6/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/6/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/6/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/6/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/6/6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/6/config.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/1a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/1b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/1c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/3a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/3b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/exercise3a.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/exercise3b.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/interface_config.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/7/ospf_config.j2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/8/1a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/8/1b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/8/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/8/exercise2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/8/exercise3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/8/exercise4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class1/8/my_devices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/1/ex1_ex2_ipv6_split.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/1/ex3_input_stdin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/10/main_program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/10/show_version_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/10/ssh_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/10/telnet_connection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/10/uptime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/2/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/2/ex2_binary_converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/2/ex3_as_path_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/2/ex4_show_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/3/ex1_binary_converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/3/ex2_as_path_processing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/3/ex3_show_ip_int_brief.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/3/ex4_ip_address_valid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/4/ex1_valid_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/4/ex2_show_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/4/ex3_uptime_parsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/5/cdp_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/5/ex1_cdp_parsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/5/ex2_cdp_adjacencies.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/6/ex1_func_product.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/6/ex2_list_to_dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/6/ex3_valid_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/6/ex4_binary_converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/6/ex5_bin_convert_with_import.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/CDP_DATA/r1_cdp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/CDP_DATA/r2_cdp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/CDP_DATA/r3_cdp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/CDP_DATA/r4_cdp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/CDP_DATA/r5_cdp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/CDP_DATA/sw1_cdp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/OSPF_DATA/ospf_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/OSPF_DATA/ospf_single_interface.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/ex1a_cdp_parsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/ex1b_cdp_parsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/ex2_ospf_parsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/7/ex3_ospf_parsing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/8/ex1_valid_ip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/8/ex2_show_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/8/show_version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/8/show_version/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/8/show_version/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/8/show_version/os_version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/8/show_version/uptime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/9/ex1_ip_addr_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/9/ex2_uptime_class.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_python/_python_class/class2/9/ex3_ip_addr_w_netmask.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/network_automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/network_automation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/001 ping verification/ping-verification-hostname.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/001 Verification/001 ping verification/ping-verification-hostname.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/001 ping verification/ping-verification-ip-list.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/001 Verification/001 ping verification/ping-verification-ip-list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/002 ssh to 1 router defined in module/device_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/002 SSH/002 ssh to 1 router defined in module/device_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/002 ssh to 1 router defined in module/ssh-to-multiple-routers-module.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/002 SSH/002 ssh to 1 router defined in module/ssh-to-multiple-routers-module.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/002 ssh to 1 router using netmiko/netmiko_initialize_close_ssh.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/002 SSH/002 ssh to 1 router defined in module/002 ssh to 1 router using netmiko/netmiko_initialize_close_ssh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/002 ssh to a router and find prompt/find_prompt.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/002 SSH/002 ssh to a router and find prompt/find_prompt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/002 ssh to multiple routers iterating through list of dictionary/iterate_through_devices_for_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/002 SSH/002 ssh to multiple routers iterating through list of dictionary/iterate_through_devices_for_loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/002 ssh to multiple routers using netmiko using txt file with IPs/devices.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_python/002 SSH/002 ssh to multiple routers using netmiko using txt file with IPs/devices.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/002 ssh to multiple routers using netmiko using txt file with IPs/ssh-to-multiple-routers-txt.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/002 SSH/002 ssh to multiple routers using netmiko using txt file with IPs/ssh-to-multiple-routers-txt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/003 add delay when issuing command on router/add_delay.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/002 SSH/003 add delay when issuing command on router/add_delay.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/003 ssh to a router and issue a command/netmiko_send_command.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/003 SSH + command/003 ssh to a router and issue a command/netmiko_send_command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/003 ssh to a router enter enable mode/enter_enable_mode.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/003 SSH + command/003 ssh to a router enter enable mode/enter_enable_mode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/006 ssh to multiple devices and backup show run into files/paramiko_show_run_backup.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/005 Device backup/006 ssh to multiple devices and backup show run into files/paramiko_show_run_backup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/007 ssh to router and issue commands defined in set/netmiko_send_config_set.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/003 SSH + command/007 ssh to router and issue commands defined in set/netmiko_send_config_set.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/008 netmiko create loopback interface/netmiko_create_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/003 SSH + command/008 netmiko create loopback interface/netmiko_create_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/009 netmiko delete loopback interface/netmiko_delete_interface.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/003 SSH + command/009 netmiko delete loopback interface/netmiko_delete_interface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/010 delete file from flash and deal with prompts/handle_prompts_file_delete_from_flash.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/004 SSH cmd prompts/010 delete file from flash and deal with prompts/handle_prompts_file_delete_from_flash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/012 paramiko get SN from router/paramiko_get_sn_from_device_python2.py" beforeDir="false" afterPath="$PROJECT_DIR$/_python/006 SSH output parsing/012 paramiko get SN from router/paramiko_get_sn_from_device_python2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_python/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/easy_install" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/easy_install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/bin/pip3" beforeDir="false" afterPath="$PROJECT_DIR$/venv/bin/pip3" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kMzGMMbEiTWvEchd3Hzrjth4OS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_python/_python_class/class1" />
+      <recent name="$PROJECT_DIR$/_python/006 SSH output parsing" />
+      <recent name="$PROJECT_DIR$/_python/004 SSH cmd prompts" />
+      <recent name="$PROJECT_DIR$/_python/003 SSH + command" />
+      <recent name="$PROJECT_DIR$/_python/005 Device backup" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="netmiko_send_config_set" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="network_automation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_python/007 ssh to router and issue commands defined in set" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_python/007 ssh to router and issue commands defined in set/netmiko_send_config_set.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.netmiko_send_config_set" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1eca9cdb-8811-41a5-aeba-9977156c0255" name="Default Changelist" comment="" />
+      <created>1605802860270</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605802860270</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="219" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605804490927">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="219" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1680.969@0.25.1680.969" timestamp="1605804490927" />
+    <state x="479" y="416" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606394536034">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="479" y="416" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.969@0.25.1680.969" timestamp="1606394536034" />
+    <state width="1379" height="246" key="GridCell.Tab.0.bottom" timestamp="1605933154380">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state width="1379" height="246" key="GridCell.Tab.0.bottom/0.25.1680.969@0.25.1680.969" timestamp="1605933154380" />
+    <state width="1379" height="246" key="GridCell.Tab.0.center" timestamp="1605933154380">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state width="1379" height="246" key="GridCell.Tab.0.center/0.25.1680.969@0.25.1680.969" timestamp="1605933154380" />
+    <state width="1379" height="246" key="GridCell.Tab.0.left" timestamp="1605933154380">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state width="1379" height="246" key="GridCell.Tab.0.left/0.25.1680.969@0.25.1680.969" timestamp="1605933154380" />
+    <state width="1379" height="246" key="GridCell.Tab.0.right" timestamp="1605933154380">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state width="1379" height="246" key="GridCell.Tab.0.right/0.25.1680.969@0.25.1680.969" timestamp="1605933154380" />
+    <state x="35" y="247" key="SettingsEditor" timestamp="1605804936336">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="35" y="247" key="SettingsEditor/0.25.1680.969@0.25.1680.969" timestamp="1605804936336" />
+    <state x="300" y="367" key="Vcs.Push.Dialog.v2" timestamp="1606451772855">
+      <screen x="0" y="25" width="1680" height="969" />
+    </state>
+    <state x="300" y="367" key="Vcs.Push.Dialog.v2/0.25.1680.969@0.25.1680.969" timestamp="1606451772855" />
+  </component>
 </project>
