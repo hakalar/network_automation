@@ -5,7 +5,12 @@ import pytz
 # d = datetime.date(2001, 9, 11)
 
 tday = datetime.date.today()
-
+print(tday)
+print(tday.weekday())
+print(tday.isoweekday())
+print(tday.year)
+print(tday.day)
+print(tday)
 
 # weekday() - Monday is 0 and Sunday is 6
 # print(tday)
@@ -26,9 +31,9 @@ tdelta = datetime.timedelta(hours=12)
 bday = datetime.date(2016, 9, 24)
 
 till_bday = bday - tday
-
 # print(till_bday.days)
 
+# hours, minutes, seconds, microseconds
 t = datetime.time(9, 30, 45, 100000)
 
 # dt = datetime.datetime.today()
@@ -39,6 +44,11 @@ t = datetime.time(9, 30, 45, 100000)
 
 dt = datetime.datetime(2016, 7, 24, 12, 30, 45, tzinfo=pytz.UTC)
 # print(dir(dt))
+# print(dt.time())
+# print(dt.date())
+tdelta = datetime.timedelta(days=7)
+print(dt + tdelta)
+
 
 dt_utcnow = datetime.datetime.now(tz=pytz.UTC)
 # print(dt_utcnow)

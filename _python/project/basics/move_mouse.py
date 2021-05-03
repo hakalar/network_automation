@@ -13,8 +13,8 @@ mouse.position = (10, 20)
 
 while True:
     mouse.move(random.randrange(-20,20,1), random.randrange(-20,20,1))
-    time.sleep(5)
+    time.sleep(100)
     mouse.move(random.randrange(-20,20,1), random.randrange(-20,20,1))
-    time.sleep(5)
+    time.sleep(100)
     mouse.move(random.randrange(-20,20,1), random.randrange(-20,20,1))
 
